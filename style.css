@@ -1,0 +1,571 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+}
+body{
+  background-color: rgb(248, 241, 224);
+}
+.name{
+  width: 60px;
+  height: 50px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:  0;
+  padding: 20px 50px;
+  padding-left: 10px;
+  background: url(Images/Free\ Palestine.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+   font-family: "Ancizar Sans", sans-serif;
+   
+   
+  
+
+}
+.part1{
+  display: flex;
+  gap:1rem;
+  color: rgb(255, 236, 213);
+}
+.nav-links ul{
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  
+
+}
+.nav-links  a {
+  text-decoration: none;
+  color: rgb(255, 235, 204);
+  font-size: 25px;
+  border-radius: 15px;
+  padding:10px 10px ;
+  background-color: rgb(0, 0, 0);
+
+  
+ 
+}
+.nav-links a:hover{
+  text-decoration: none;
+  background-color: rgb(188, 48, 48);
+  
+ 
+}
+.main{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin: 0 auto;
+  background: url(Images/download\ \(3\).jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+   padding-left: 2rem;
+   padding-right: 0;
+   justify-content: space-between;
+   display: flex;
+   
+
+}
+.logo{
+  width: 400px;
+  height: auto;
+  margin:2rem 2rem ;
+}
+.main-text{
+
+  flex-direction: column;
+  display: flex;
+  
+
+}
+.main-text h2 {
+  font-size: 50px;
+  margin: 20px 20px ;
+  color:rgb(255, 246, 216);
+  
+}
+.main-text h1{
+  margin-left: 2.5rem;
+  margin-bottom: 2rem;
+  font-size: 30px;
+  color: rgb(168, 35, 35);
+}
+.main-text p{
+  color: rgb(0, 0, 0);
+  
+  font-size: 20px;
+  margin-right: 2.5rem;
+  margin-bottom: 2rem;
+  font-family: "Roboto condensed", sans-serif;
+}
+.main-text a{
+  color: antiquewhite;
+  margin-left: 250px;
+  margin-top: 3rem;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  text-decoration: wavy;
+}
+.arrow1{
+  width: 30px;
+  height: 100px;
+  margin-left: 330px;
+}
+.arow{
+  flex-direction: column;
+}
+.About{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  margin-right: 1rem;
+
+}
+.about-img{
+  width: 600px;
+  margin-top: 0.4rem;
+  height: 600px;
+}
+.about-text{
+  display: flex;
+  flex-direction: column;
+
+}
+.about-title{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 2rem;
+}
+.word1{
+  color:darkred;
+  font-family: "Ancizar Sans", sans-serif;
+}
+.word2{
+  color: seagreen;
+  font-family: "Ancizar Sans", sans-serif;
+}
+.about-text p{
+  margin-top: 2rem;
+  text-align: justify;
+  font-family: "Roboto condensed", sans-serif;
+  font-size: 20px;
+ padding: 5px;
+  border-color: darkgreen;
+  border-radius: 10px;
+}
+ 
+   .highlight-box {
+      display: inline-block;
+      text-align: left;
+    }
+
+    .line {
+      width: 150px;
+      height: 4px;
+      background-color: #000000; 
+      margin: 10px 0;
+    }
+    .learn-more{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #500000; 
+      color: white;
+      padding: 20px 30px;
+      font-size: 20px;
+      letter-spacing: 10px;
+      text-decoration: none;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 3rem;
+      width: 300px;
+      height: 20px;
+    }
+
+    .arrow {
+      color: #e7ffec; 
+      font-size: 24px;
+      margin-left: 15px;
+      position: relative;
+      top: 1px;
+    }
+
+    .learn-more:hover {
+      background-color: #863232;}
+ .services-title{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 2rem;
+  margin-left: 2rem;
+ }     
+ .line1 {
+      width: 150px; 
+      height: 4px;
+      background-color: #000000; 
+      margin: 10px 2rem;
+      
+    }
+    .services{
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+padding-left: 2rem;
+font-family: "Roboto condensed", sans-serif;
+  
+
+    }
+.services-img{
+  width: 666px;
+  height: 500px;
+
+} 
+.services-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .service-box {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .service-box h3 {
+      color: #1c4e80;
+      margin-bottom: 10px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    .Systems{
+      display: flex;
+      
+      align-items: center;
+      margin-top: 2rem;
+      gap: 5rem;
+    }
+    .System-title{
+       display: flex;
+       align-items: center;
+       gap: 5px;
+       font-size: 2rem;
+       
+       
+
+    }
+    .System-text{
+      margin-right: 260px;
+    }
+
+ table {
+      width: 95%;
+      margin: 20px auto 40px auto;
+      border-collapse: collapse;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 15px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #167a19;
+      color: #ffffff;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    .nav3 {
+      text-align: center;
+      margin-top: 0;
+      margin-right: 10px;
+      margin-bottom: 2rem;
+    }
+
+    .nav3 a {
+      text-decoration: none;
+      background-color: #500000;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+       font-family: "Raleway", sans-serif;
+      font-size: 20px;
+      margin-right: 20rem;
+      
+      
+    }
+
+    .nav3 a:hover {
+      background-color: #8b2c2c;
+    }
+    .system-content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      
+    }
+    .system-img{
+      height: 550px;
+      width: 600px;
+    }
+    .contact-title{
+       display: flex;
+       justify-content: center;
+       margin-bottom: 30px;
+       gap: 5px;
+       font-size: 2rem;
+      margin-top: 18px;
+       background-color: #ffffff;
+       
+       
+       
+      }
+      
+       .content3{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;     
+       
+       }
+       .contact{
+          background: url(Images/Free\ Palestine.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+         
+         
+       }
+       .info h3{
+        color: #780f0f;
+        font-size: 1.2em;
+        font-family: "Roboto condensed", sans-serif;
+        font-weight: 600;
+        margin: 10px 10px;
+       }
+       .info{
+        text-align: center;
+       }
+       .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+     background-color: rgb(255, 255, 255);
+        width: 21.25em;
+        box-shadow: 0 5px 25px  rgba(49, 0, 0, 0.15);
+        border-radius: 10px;
+        padding: 25px;
+        margin: 15px;
+        transition: 0.7s ease;
+
+    }
+
+   .card:hover{
+        transform: scale(1.1);
+
+       }
+
+    
+
+    .card p {
+      font-size: 20px;
+      color: #000000;
+      font-family: "Roboto condensed", sans-serif;
+      
+    }
+
+    .icon {
+      font-size: 8em;
+      margin-bottom: 10px;
+      color: #1d892d;
+      text-align: center;
+      margin-left: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .info a{
+      color:#1c4e80;
+      text-decoration: none;
+      font-size: 20px;
+      font-family: "Roboto condensed", sans-serif;
+    }
+    .info a:hover{
+      color: #8b2c2c;
+    }
+    .footer{
+      background-color: #012005;
+      color: #ffffff;
+      padding: 2em;
+      display: flex;
+      justify-content: space-between;
+      font-family: "Roboto condensed", sans-serif;
+      
+    }
+    .social-icons a{
+      display: flex;
+      padding-right: 30px;
+      font-size: 1.7em;
+      color: aliceblue;
+      text-decoration: none;
+    }
+    .social-icons a:hover{
+      color: rgb(139, 34, 34);
+    }
+    .social-icons{
+      display: flex;
+    }
+/* للموبايلات */
+@media (max-width: 600px) {
+  .main-text h1 {
+    font-size: 24px;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-img, .system-img, .services-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .part1 h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* تحسين استجابة العناصر للتابلت */
+@media (max-width: 992px) {
+  header {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .main {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .logo {
+    width: 70%;
+    margin: 1rem auto;
+  }
+
+  .about-img, .system-img, .services-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .About, .services, .Systems {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+/* دعم قوي للموبايلات الصغيرة */
+@media (max-width: 480px) {
+  .main-text h2 {
+    font-size: 28px;
+  }
+
+  .main-text h1 {
+    font-size: 18px;
+  }
+
+  .main-text p, .about-text p {
+    font-size: 16px;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .learn-more {
+    width: 90%;
+    height: auto;
+    padding: 15px;
+    font-size: 18px;
+    letter-spacing: 5px;
+  }
+
+  .arrow1 {
+    display: none;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  .System-text {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+  
+}
